@@ -41,10 +41,9 @@ TODO: test the exact details of this and link to relevant info
 2. Construct the bucket's AWS Console URL by replacing `<BUCKET_NAME>` with the name of the bucket that you want to view in `https://s3.console.aws.amazon.com/s3/buckets/<BUCKET_NAME>`. 
 
   For example to view the publicly-available [SpaceNet Dataset](https://registry.opendata.aws/spacenet/) that is located in the `spacenet-dataset` bucket use `https://s3.console.aws.amazon.com/s3/buckets/spacenet-dataset`
-  <figure>
-  <img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146167439-b8b8b6c2-f967-476a-a00f-69752e8c674b.png">
-  <figcaption align="center"><b>Viewing the SpaceNet Dataset bucket</b></figcaption>
-  </figure>
+| <img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146167439-b8b8b6c2-f967-476a-a00f-69752e8c674b.png"> |
+|:--:|
+| <b>Viewing the SpaceNet Dataset bucket</b> |
 
 ## Download
 
