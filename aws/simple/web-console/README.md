@@ -39,7 +39,7 @@ TODO: test the exact details of this and link to relevant info
 
 
 
-2. Construct the bucket's AWS Console URL by replacing `<BUCKET_NAME>` with the name of the bucket that you want to view in `https://s3.console.aws.amazon.com/s3/buckets/<BUCKET_NAME>`. 
+2. Construct the bucket's AWS Console URL by replacing `<BUCKET_NAME>` with the name of the bucket that you want to view: `https://s3.console.aws.amazon.com/s3/buckets/<BUCKET_NAME>`. 
 
   For example to view the publicly-available [SpaceNet Dataset](https://registry.opendata.aws/spacenet/) that is located in the `spacenet-dataset` bucket use `https://s3.console.aws.amazon.com/s3/buckets/spacenet-dataset`
   
@@ -63,3 +63,9 @@ TODO: test the exact details of this and link to relevant info
 1. Drag and drop, or use the "Add Files" or "Add Folder" buttons to choose the files to upload
 1. Click the "Upload" button.
 1. Wait for the upload to complete.
+
+  
+  | <img width="1178" alt="image" src="https://user-images.githubusercontent.com/8148776/146168832-8b5fb07c-393c-44fd-9a23-ffdcbb38ed74.png"> |
+  |  |
+  |:--:|
+  | <b>I don't have permission to upload to the SpaceNet Dataset bucket, so this will not succeed.</b> |
