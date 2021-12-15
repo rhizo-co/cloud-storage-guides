@@ -52,3 +52,8 @@ The [AWS CLI documentation](https://awscli.amazonaws.com/v2/documentation/api/la
 | <img width="630" alt="image" src="https://user-images.githubusercontent.com/8148776/146238709-85862735-ba4e-4d2b-8512-1bd95cb9006d.png"> |
 |:--:|
 | <b> Using `sts get caller-identity` to check what idenity is currently being used </b> |
+
+<CodeSample>
+  <Python src='./example.py'/>
+  <Javascript/>
+</CodeSample>
