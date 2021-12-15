@@ -37,7 +37,7 @@ TODO: test the exact details of this and link to relevant info
   <figcaption align="center"><b>Don't Panic. Shared buckets do not appear on this page.</b></figcaption>
   </figure>
 
-1. Construct the bucket's AWS Console URL by replacing `<BUCKET_NAME>` with the name of the bucket that you want to view in `https://s3.console.aws.amazon.com/s3/buckets/<BUCKET_NAME>`. 
+2. Construct the bucket's AWS Console URL by replacing `<BUCKET_NAME>` with the name of the bucket that you want to view in `https://s3.console.aws.amazon.com/s3/buckets/<BUCKET_NAME>`. 
 
   For example to view the publicly-available [SpaceNet Dataset](https://registry.opendata.aws/spacenet/) that is located in the `spacenet-dataset` bucket use `https://s3.console.aws.amazon.com/s3/buckets/spacenet-dataset`
   <figure>
