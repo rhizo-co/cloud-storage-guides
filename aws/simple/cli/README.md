@@ -48,3 +48,7 @@ The [AWS CLI documentation](https://awscli.amazonaws.com/v2/documentation/api/la
 1. To show the AWS CLI configuration run `aws configure list`
 1. To get the identity of the currently logged in user run
  `aws sts get-caller-identity` *this call my fail if the STS api is not enabled or you do not have sufficient permissions
+ 
+| <img width="630" alt="image" src="https://user-images.githubusercontent.com/8148776/146238709-85862735-ba4e-4d2b-8512-1bd95cb9006d.png"> |
+|:--:|
+| <b> Using `sts get caller-identity` to check what idenity is currently being used </b> |
