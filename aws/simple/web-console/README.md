@@ -67,3 +67,7 @@ Ensure that the IAM user/role being used has the necessary permissions within yo
   | <img width="1178" alt="image" src="https://user-images.githubusercontent.com/8148776/146168832-8b5fb07c-393c-44fd-9a23-ffdcbb38ed74.png"> |
   |:--:|
   | <b>I don't have permission to upload to the SpaceNet Dataset bucket, so this will not succeed.</b> |
+  
+# Authors
+
+<img width="125" alt="image" src="https://user-images.githubusercontent.com/8148776/146237610-d424d6a4-66d2-4e8a-a829-438958606ad1.png">
