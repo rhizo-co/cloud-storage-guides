@@ -32,14 +32,19 @@ TODO: test the exact details of this and link to relevant info
 ## Accessing the Bucket's page in the AWS Console
 
 1. [Log in to the aws console](https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html) using your AWS username and password.
+
+  <figure>
+  <img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146166819-d0b24bb4-44d1-4d69-b441-852e2a8c6766.png">
+  <figcaption align="center"><b>Don't Panic. Shared buckets do not appear on this page.</b></figcaption>
+  </figure>
+
 1. Construct the bucket's AWS Console URL by replacing `<BUCKET_NAME>` with the name of the bucket that you want to view in `https://s3.console.aws.amazon.com/s3/buckets/<BUCKET_NAME>`. 
 
-For example to view the publicly-available [SpaceNet Dataset](https://registry.opendata.aws/spacenet/) that is located in the `spacenet-dataset` bucket use `https://s3.console.aws.amazon.com/s3/buckets/spacenet-dataset`
-
-<figure>
-<img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146166819-d0b24bb4-44d1-4d69-b441-852e2a8c6766.png">
-<figcaption align = "center"><b>Don't Panic. Shared buckets do not appear on this page.</b></figcaption>
-</figure>
+  For example to view the publicly-available [SpaceNet Dataset](https://registry.opendata.aws/spacenet/) that is located in the `spacenet-dataset` bucket use `https://s3.console.aws.amazon.com/s3/buckets/spacenet-dataset`
+  <figure>
+  <img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146167439-b8b8b6c2-f967-476a-a00f-69752e8c674b.png">
+  <figcaption align="center"><b>Don't Panic. Shared buckets do not appear on this page.</b></figcaption>
+  </figure>
 
 ## Download
 
