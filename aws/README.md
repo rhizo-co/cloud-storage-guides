@@ -4,6 +4,11 @@
 
 TODO
 
+# Required Information
+
+AWS Account ID (12 digit number)
+ARNs for the User(s) or Role(s) that you want us to grant access to the shared bucket
+
 # Required Permissions
 
 ## IAM permissions in user's account
