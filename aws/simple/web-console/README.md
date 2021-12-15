@@ -32,7 +32,6 @@ TODO: test the exact details of this and link to relevant info
 ## Accessing the Bucket's page in the AWS Console
 
 1. [Log in to the aws console](https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html) using your AWS username and password.
-
   <figure>
   <img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146166819-d0b24bb4-44d1-4d69-b441-852e2a8c6766.png">
   <figcaption align="center"><b>Don't Panic. Shared buckets do not appear on this page.</b></figcaption>
