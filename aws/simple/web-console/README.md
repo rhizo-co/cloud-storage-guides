@@ -36,6 +36,11 @@ TODO: test the exact details of this and link to relevant info
 
 For example to view the publicly-available [SpaceNet Dataset](https://registry.opendata.aws/spacenet/) that is located in the `spacenet-dataset` bucket use `https://s3.console.aws.amazon.com/s3/buckets/spacenet-dataset`
 
+<figure>
+<img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146166819-d0b24bb4-44d1-4d69-b441-852e2a8c6766.png">
+<figcaption align = "center"><b>Don't Panic. Shared buckets do not appear on this page.</b></figcaption>
+</figure>
+
 ## Download
 
 1. Follow the instructions above to navigate to the Bucket's page in the AWS Console.
