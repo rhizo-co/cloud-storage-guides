@@ -24,8 +24,7 @@ This is an AWS limitation explained [in the AWS knowledge center](https://aws.am
 
 ## Account permissions
 
-Your user must have been granted permission to perform AWS S3 actions within its own AWS account.
-TODO: test the exact details of this and link to relevant info
+Ensure that the IAM user/role being used has the necessary permissions within your account. See the [introduction to AWS shared buckets](../README.md) for more information.
 
 # Instructions
 
