@@ -3,7 +3,7 @@
 ## Restrictions & Limitations
 
 ### AWS CLI does not support username+password login
-It is not generally possible to log in to the AWS CLI using AWS account username + password credentials. Supported credentials include:
+It is generally not  possible to log in to the AWS CLI using AWS account username + password credentials. Supported credentials include:
 
 - Access Key credentials (AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY)
 - Temporary credentials incuding:
@@ -51,7 +51,7 @@ The [AWS CLI documentation](https://awscli.amazonaws.com/v2/documentation/api/la
  
 | <img width="630" alt="image" src="https://user-images.githubusercontent.com/8148776/146238709-85862735-ba4e-4d2b-8512-1bd95cb9006d.png"> |
 |:--:|
-| <b> Using `sts get caller-identity` to check what idenity is currently being used </b> |
+| <b> Using `sts get caller-identity` to check what identity is currently being used </b> |
 
 <CodeSample>
   <Python src='./example.py'/>
