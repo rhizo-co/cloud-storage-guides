@@ -34,12 +34,14 @@ Ensure that the IAM user/role being used has the necessary permissions within yo
 ## Download
 
 1. To view the contents of a bucket use `aws s3 ls s3://<BUCKET NAME>`
-  For example to view the publicly-available ["Helpful Sentences from Reviews" dataset](https://registry.opendata.aws/helpful-sentences-from-reviews/), located in the `helpful-sentences-from-reviews` bucket use `aws s3 ls s3://helpful-sentences-from-reviews/`
+  
+  For example to view the publicly-available ["Helpful Sentences from Reviews" dataset](https://registry.opendata.aws/helpful-sentences-from-reviews/), located in the `helpful-sentences-from-reviews` bucket, use `aws s3 ls s3://helpful-sentences-from-reviews/`
   | <img width="896" alt="image" src="https://user-images.githubusercontent.com/8148776/146378233-17402f3b-77e3-4fb7-8d39-2304060aae07.png"> |
   |:--:|
   | <b> Viewing the contents of the Helpful Sentences from Reviews dataset </b> |
   
 2. Use `aws s3 cp --recursive s3://<BUCKET NAME>/path/to/files /path/to/destination` to download the files/folders that you need. 
+  
   For example to download the ["Helpful Sentences from Reviews" dataset](https://registry.opendata.aws/helpful-sentences-from-reviews/) to the local `sentences_dataset/` folder use `aws s3 cp --recursive  s3://helpful-sentences-from-reviews/ ./sentences_data`
   | <img width="974" alt="image" src="https://user-images.githubusercontent.com/8148776/146379034-fc0cd705-0152-4da7-9d9c-54db370d0080.png">
  |
