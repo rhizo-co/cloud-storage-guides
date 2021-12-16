@@ -43,8 +43,7 @@ Ensure that the IAM user/role being used has the necessary permissions within yo
 2. Use `aws s3 cp --recursive s3://<BUCKET NAME>/path/to/files /path/to/destination` to download the files/folders that you need. 
   
   For example to download the ["Helpful Sentences from Reviews" dataset](https://registry.opendata.aws/helpful-sentences-from-reviews/) to the local `sentences_dataset/` folder use `aws s3 cp --recursive  s3://helpful-sentences-from-reviews/ ./sentences_data`
-  | <img width="974" alt="image" src="https://user-images.githubusercontent.com/8148776/146379034-fc0cd705-0152-4da7-9d9c-54db370d0080.png">
- |
+  | <img width="974" alt="image" src="https://user-images.githubusercontent.com/8148776/146379034-fc0cd705-0152-4da7-9d9c-54db370d0080.png"> |
   |:--:|
   | <b> Download the Helpful Sentences from Reviews dataset </b> |
 
