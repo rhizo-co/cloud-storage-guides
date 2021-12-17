@@ -3,12 +3,15 @@
 ## Restrictions & Limitations
 
 ### AWS Console only allows downloading one item at a time
-The AWS console only allows downloading individual files one-at-a-time. It is not possible to select multiple files for download or to download a folder in a single operation.  If you want to download more than a handful of files we recommend using the [AWS Command Line Interface](https://aws.amazon.com/cli/). A guide for using the AWS Command Line interface is included in this repository in the [cli directory](../cli).
+The AWS Console only allows downloading individual files one-at-a-time. It is not possible to select multiple files for download or to download a folder in a single operation.  If you want to download more than a handful of files we recommend using the [AWS Command Line Interface](https://aws.amazon.com/cli/). A guide for using the AWS Command Line interface to download files from shared buckets is included in this repository in the [cli directory](../cli).
 
-### Console username + password credentials only
-It is only possible to log in to the AWS Console using IAM or root username + password credentials. For IAM users console access must be enabled.
+### Console login is only possible with username + password credentials
+It is only possible to log in to the AWS Console using username + password (+MFA). The AWS console currently supports sign in for:
+- AWS IAM accounts (console access must be enabled for the IAM account)
+- AWS Account root
+- AWS Single Sign On (SSO) accounts
 
-The following types of credentials do NOT work with the AWS Console:
+The following types of credentials do NOT work with the AWS Console, regardless of the type of account being used:
 
 - Access Key credentials (AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY)
 - Temporary credentials incuding:
@@ -20,9 +23,9 @@ The AWS Console Buckets list only shows Buckets that are owned by your account. 
 
 This is an AWS limitation explained [in the AWS knowledge center](https://aws.amazon.com/premiumsupport/knowledge-center/s3-bucket-cross-account-access/).
 
-# Prerequisites
+## Prerequisites
 
-## Account permissions
+### Account permissions
 
 Ensure that the IAM user/role being used has the necessary permissions within your account. See the [introduction to AWS shared buckets](../README.md) for more information.
 
@@ -30,7 +33,7 @@ Ensure that the IAM user/role being used has the necessary permissions within yo
 
 ## Accessing the Bucket's page in the AWS Console
 
-1. [Log in to the aws console](https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html) using your AWS username and password.
+1. [Log in to the AWS Console](https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html) using your username and password.
 
   | <img width="1176" alt="image" src="https://user-images.githubusercontent.com/8148776/146166819-d0b24bb4-44d1-4d69-b441-852e2a8c6766.png"> |
   |:--:|

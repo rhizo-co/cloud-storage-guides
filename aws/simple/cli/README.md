@@ -19,13 +19,13 @@ The AWS CLI list command, `aws s3 ls`, only shows Buckets that are owned by your
 
 This is an AWS limitation explained [in the AWS knowledge center](https://aws.amazon.com/premiumsupport/knowledge-center/s3-bucket-cross-account-access/).
 
-# Prerequisites
+## Prerequisites
 
-## AWS CLI
+### AWS CLI
 
 The AWS CLI needs to be installed and configured before you can use it. See [the AWS CLI website](https://aws.amazon.com/cli/) for more details.
 
-## Account permissions
+### Account permissions
 
 Ensure that the IAM user/role being used has the necessary permissions within your account. See the [introduction to AWS shared buckets](../README.md) for more information.
 
