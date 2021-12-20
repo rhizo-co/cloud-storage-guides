@@ -1,4 +1,4 @@
-# Using the Google Cloud Platform Command Line Interface (CLI)
+# Using the gsutil tool (CLI) for GCP Storage
 
 ## Restrictions & Limitations
 
@@ -21,14 +21,14 @@ Alternatively, the gsutil tool can be accessed without installation and configur
   
   For example to view the publicly-available [Landsat Dataset](https://cloud.google.com/storage/docs/public-datasets/landsat) that is located in the `gcp-public-data-landsat` bucket use `gsutil ls gs://gcp-public-data-landsat`
 
-  |  |
+  | <img width="1009" alt="image" src="https://user-images.githubusercontent.com/8148776/146756443-4554e753-016c-4004-b299-5ab8ca40e049.png"> |
   |:--:|
   | <b>Viewing the Landsat Dataset bucket</b> |
 
 2. Use `gsutil -m cp -r gs://<BUCKET NAME>/path/to/files /path/to/destination` to download the files/folders that you need. 
   
   For example to download a small (1.5GB) piece of the  [Landsat Dataset](https://cloud.google.com/storage/docs/public-datasets/landsat) to the local `landsat_dataset/` folder use `gsutil -m cp -r gs://gcp-public-data-landsat/LC08/01/100/010/ ./landsat_dataset/LC08/01/100/`
-  |  |
+  | <img width="1249" alt="image" src="https://user-images.githubusercontent.com/8148776/146756648-5d36b375-62fa-4804-853d-7c51fc6da190.png"> |
   |:--:|
   | <b> Download a small piece of the Lansat dataset </b> |
 
