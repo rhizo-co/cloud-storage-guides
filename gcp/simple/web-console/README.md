@@ -20,7 +20,7 @@ The following types of credentials do NOT work with the GCP Console, regardless 
 It is not possible to log in to the GCP Console using GCP Service Account (sometimes called GCP IAM account) credentials. You should log in using a Google Account. Google (user) Accounts can be personal or part of a Google Workspace or Google Identity Service domain.
 
 ### GCP Console does not list shared buckets
-The GCP Console Cloud Storage Browser only shows Buckets that belong to the current project that you are viewing. It does not show buckets that are shared with you but belong to other GCP accounts. However it is still possible to view a shared bucket in the GCP console, provided you already know the name of the bucket that you want to view, by navigating directly to the bucket's url: `https://console.cloud.google.com/storage/browser/<BUCKET_NAME>`
+The GCP Console Cloud Storage Browser only shows Buckets that belong to the current project that you are viewing. It does not show buckets that are shared with you but belong to other GCP projects. However it is still possible to view a shared bucket in the GCP console, provided you already know the name of the bucket that you want to view, by navigating directly to the bucket's url: `https://console.cloud.google.com/storage/browser/<BUCKET_NAME>`
 
 This is a limitation of GCP.
 

@@ -11,7 +11,7 @@ It is generally not  possible to log in to the AWS CLI using AWS account usernam
   - OAuth2 / OIDC Tokens
 - AWS Single Sign On [AWS Single Sign On (SSO)](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html)
 
-Alternatively, the AWS CLI can be accessed using username+password credentials by logging into the AWS Console and using [AWS CloudShell](https://aws.amazon.com/cloudshell/).
+Alternatively, the AWS CLI can be accessed using username+password credentials by logging in to the AWS Console and using [AWS CloudShell](https://aws.amazon.com/cloudshell/).
 
 
 ### AWS CLI does not list shared buckets
@@ -24,6 +24,8 @@ This is an AWS limitation explained [in the AWS knowledge center](https://aws.am
 ### AWS CLI
 
 The AWS CLI needs to be installed and configured before you can use it. See [the AWS CLI website](https://aws.amazon.com/cli/) for more details.
+
+Alternatively, the AWS CLI can be accessed without installation and configuration by logging in to the AWS Console and using [AWS CloudShell](https://aws.amazon.com/cloudshell/).
 
 ### Account permissions
 
@@ -51,7 +53,9 @@ See the `aws s3 cp` [documentation](https://awscli.amazonaws.com/v2/documentatio
 
 ## Upload
 
-1. Use `aws s3 cp --recursive /path/to/files s3://<BUCKET NAME>/path/to/destination ` to upload the files/folders that you need. See the `aws s3 cp` [documentation](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html) for more information on the arguments that the `cp` command supports.
+1. Use `aws s3 cp --recursive /path/to/files s3://<BUCKET NAME>/path/to/destination ` to upload the files/folders that you need.
+
+See the `aws s3 cp` [documentation](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html) for more information on the arguments that the `cp` command supports.  The [AWS CLI documentation](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html#available-commands) also has information about additional `aws s3` commands, such as `aws s3 sync`.
   
 ## Troubleshooting
 
